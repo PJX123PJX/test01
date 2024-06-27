@@ -2,19 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="源.cpp" />
-    <ClCompile Include="设计模式\传统策略模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
     <ClCompile Include="设计模式\代理模式.cpp">
       <Filter>设计模式</Filter>
     </ClCompile>
     <ClCompile Include="设计模式\复合实现适配器模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\观察者模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\函数指针实现策略模式.cpp">
       <Filter>设计模式</Filter>
     </ClCompile>
     <ClCompile Include="设计模式\继承实现适配器模式.cpp">
@@ -53,6 +44,15 @@
     <ClCompile Include="设计模式\抽象工厂模式.h">
       <Filter>设计模式\01工厂模式</Filter>
     </ClCompile>
+    <ClCompile Include="设计模式\传统策略模式.h">
+      <Filter>设计模式\02策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\函数指针实现策略模式.h">
+      <Filter>设计模式\02策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\观察者模式.h">
+      <Filter>设计模式\03观察者模式</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="设计模式">
@@ -63,6 +63,12 @@
     </Filter>
     <Filter Include="设计模式\00单例模式">
       <UniqueIdentifier>{653b5d51-350f-4302-93c2-815f4887d201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式\02策略模式">
+      <UniqueIdentifier>{fd02f0d3-2732-40f1-a5ab-dd6dc29438af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式\03观察者模式">
+      <UniqueIdentifier>{72c67f44-2804-4077-bcc3-c25efe29dca9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

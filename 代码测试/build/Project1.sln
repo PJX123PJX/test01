@@ -26,6 +26,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = ..\src
 		SolutionGuid = {37186FB5-65D7-4E18-A3EB-1CB6AED7F1F8}
 	EndGlobalSection
 EndGlobal

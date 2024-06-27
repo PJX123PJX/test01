@@ -21,8 +21,8 @@
   <ItemGroup>
     <ClCompile Include="源.cpp" />
     <ClCompile Include="设计模式\代理模式.cpp" />
-    <ClCompile Include="设计模式\传统策略模式.cpp" />
-    <ClCompile Include="设计模式\函数指针实现策略模式.cpp" />
+    <ClCompile Include="设计模式\传统策略模式.h" />
+    <ClCompile Include="设计模式\函数指针实现策略模式.h" />
     <ClCompile Include="设计模式\复合实现适配器模式.cpp" />
     <ClCompile Include="设计模式\外观模式.cpp" />
     <ClCompile Include="设计模式\工厂方法模式.h" />
@@ -35,7 +35,7 @@
     <ClCompile Include="设计模式\继承实现适配器模式.cpp" />
     <ClCompile Include="设计模式\职责链模式.cpp" />
     <ClCompile Include="设计模式\装饰模式.cpp" />
-    <ClCompile Include="设计模式\观察者模式.cpp" />
+    <ClCompile Include="设计模式\观察者模式.h" />
     <ClCompile Include="设计模式\饿汉模式.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -90,6 +90,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\run\</OutDir>
+    <IntDir>..\obj\</IntDir>
+    <TargetName>woxiangmu</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\run\</OutDir>
     <IntDir>..\obj\</IntDir>
     <TargetName>woxiangmu</TargetName>
