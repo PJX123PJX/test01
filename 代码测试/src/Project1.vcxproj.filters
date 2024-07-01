@@ -2,30 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="源.cpp" />
-    <ClCompile Include="设计模式\代理模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\复合实现适配器模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\继承实现适配器模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\模版模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\桥接模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\外观模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\职责链模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
-    <ClCompile Include="设计模式\装饰模式.cpp">
-      <Filter>设计模式</Filter>
-    </ClCompile>
     <ClCompile Include="设计模式\懒汉模式%28线程安全%29.h">
       <Filter>设计模式\00单例模式</Filter>
     </ClCompile>
@@ -53,6 +29,30 @@
     <ClCompile Include="设计模式\观察者模式.h">
       <Filter>设计模式\03观察者模式</Filter>
     </ClCompile>
+    <ClCompile Include="设计模式\代理模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\复合实现适配器模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\继承实现适配器模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\模版模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\桥接模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\外观模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\职责链模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\装饰模式.h">
+      <Filter>设计模式</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="设计模式">
@@ -70,5 +70,13 @@
     <Filter Include="设计模式\03观察者模式">
       <UniqueIdentifier>{72c67f44-2804-4077-bcc3-c25efe29dca9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="C++基础语法">
+      <UniqueIdentifier>{10d6ec08-0216-46fc-8c75-3ba13299bf76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C++基础语法\重载运算符.h">
+      <Filter>C++基础语法</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
