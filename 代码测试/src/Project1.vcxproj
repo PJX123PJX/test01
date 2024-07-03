@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C++基础语法\STL.cpp" />
+    <ClCompile Include="C++基础语法\STL.h" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="设计模式\代理模式.h" />
     <ClCompile Include="设计模式\传统策略模式.h" />

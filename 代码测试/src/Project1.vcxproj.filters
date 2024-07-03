@@ -53,6 +53,10 @@
     <ClCompile Include="设计模式\装饰模式.h">
       <Filter>设计模式</Filter>
     </ClCompile>
+    <ClCompile Include="C++基础语法\STL.h">
+      <Filter>C++基础语法</Filter>
+    </ClCompile>
+    <ClCompile Include="C++基础语法\STL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="设计模式">

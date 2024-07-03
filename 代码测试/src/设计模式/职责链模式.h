@@ -73,7 +73,7 @@ public:
 	}
 };
 
-int main()
+int mainds()
 {
 	Leader* general = new General(nullptr);
 	Leader* captain = new Captain(general);
