@@ -56,7 +56,15 @@
     <ClCompile Include="C++基础语法\STL.h">
       <Filter>C++基础语法</Filter>
     </ClCompile>
-    <ClCompile Include="C++基础语法\STL.cpp" />
+    <ClCompile Include="C++基础语法\C++11\类型推导.cpp">
+      <Filter>C++基础语法\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="C++基础语法\STL.cpp">
+      <Filter>C++基础语法</Filter>
+    </ClCompile>
+    <ClCompile Include="排序算法\排序.cpp">
+      <Filter>排序算法</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="设计模式">
@@ -76,6 +84,12 @@
     </Filter>
     <Filter Include="C++基础语法">
       <UniqueIdentifier>{10d6ec08-0216-46fc-8c75-3ba13299bf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++基础语法\C++11">
+      <UniqueIdentifier>{12284f75-3c24-4fd8-8687-2c19bee9a319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="排序算法">
+      <UniqueIdentifier>{2f5c233a-abb6-4db7-85ef-c7f587edd856}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
